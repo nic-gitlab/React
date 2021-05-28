@@ -1,0 +1,50 @@
+$blue: #1151a0;
+$purple: #f358f3;
+$light-grey: #c2c2be;
+$yellow: #f7c941;
+
+div {
+  color: $blue;
+}
+
+.question {
+  text-align: center;
+  margin: 5px;
+  border-style: solid;
+  border-width: 5px;
+  font-size: large;
+  padding: 10px;
+}
+
+.answer {
+  text-align: center;
+  margin:5px;
+  font-size: large;
+  background-color: $blue;
+  color: $light-grey;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: .5rem;
+  border-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  }
+
+.app {
+  border: 1px solid rgba(10,10,10,.25);
+  margin-top: 20px;
+}
+
+.selected {
+  background-color: $purple;
+  width: 100%;
+  border-style: dashed;
+  border-color: black;
+  border-width: 5px;
+  font-size: larger;
+}
+
+.title {
+  text-align: center;
+}
